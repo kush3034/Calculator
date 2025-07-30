@@ -25,24 +25,138 @@ This is a simple calculator application built with React.js. It supports basic a
    The app will open in your default browser at [http://localhost:3000](http://localhost:3000).
 
 ---
+## File Structure
+# Calculator Application - File Structure
 
-## Features
+## 📁 Complete File Structure
 
-- Addition, subtraction, multiplication, and division
-- Clear (`C`) button to reset input and result
-- Backspace (`⌫`) button to remove the last character
-- Responsive and user-friendly interface
+```
+application/
+├── calculator/                          # Main React Application Directory
+│   ├── .git/                           # Git version control directory
+│   ├── node_modules/                   # Dependencies (auto-generated)
+│   ├── public/                         # Public assets and HTML files
+│   │   ├── favicon.ico                 # Website favicon
+│   │   ├── index.html                  # Main HTML template
+│   │   ├── logo192.png                 # React logo (192x192)
+│   │   ├── logo512.png                 # React logo (512x512)
+│   │   ├── manifest.json               # Web app manifest
+│   │   └── robots.txt                  # Search engine robots file
+│   ├── src/                            # Source code directory
+│   │   ├── App.css                     # Main app styling
+│   │   ├── App.js                      # Main app component
+│   │   ├── App.test.js                 # App component tests
+│   │   ├── Calculator.css              # Calculator component styling
+│   │   ├── Calculator.js               # Main calculator component
+│   │   ├── index.css                   # Global CSS styles
+│   │   ├── index.js                    # Application entry point
+│   │   ├── logo.svg                    # React logo SVG
+│   │   ├── reportWebVitals.js          # Performance monitoring
+│   │   └── setupTests.js               # Test configuration
+│   ├── .gitignore                      # Git ignore rules
+│   ├── FILE_STRUCTURE.md               # This file structure documentation
+│   ├── instruction.md                  # Application instructions
+│   ├── package-lock.json               # Dependency lock file
+│   ├── package.json                    # Project configuration
+│   └── README.md                       # Project documentation
+└── instruction.md                      # Root level instructions
+```
 
----
+## 📋 File Descriptions
 
-## How to Use
+### 🎯 Core Application Files
 
-- Click the number and operator buttons to enter your calculation.
-- Press `=` to see the result.
-- Use `C` to clear everything.
-- Use `⌫` to delete the last character.
+#### **Main Components**
+- **`src/Calculator.js`** - Main calculator component with all functionality
+- **`src/Calculator.css`** - Calculator-specific styling and layout
+- **`src/App.js`** - Root React component that renders the calculator
+- **`src/App.css`** - Main application styling
 
----
+#### **Entry Points**
+- **`src/index.js`** - Application entry point and React rendering
+- **`public/index.html`** - Main HTML template
+
+#### **Configuration Files**
+- **`package.json`** - Project dependencies, scripts, and metadata
+- **`package-lock.json`** - Locked dependency versions for consistency
+- **`.gitignore`** - Files to exclude from Git version control
+
+### 📚 Documentation Files
+
+#### **Instructions & Guides**
+- **`instruction.md`** - Complete application instructions and usage guide
+- **`README.md`** - Project overview and setup instructions
+- **`FILE_STRUCTURE.md`** - This file structure documentation
+
+### 🎨 Assets & Public Files
+
+#### **Icons & Images**
+- **`public/favicon.ico`** - Website favicon
+- **`public/logo192.png`** - React logo (192x192 pixels)
+- **`public/logo512.png`** - React logo (512x512 pixels)
+- **`src/logo.svg`** - React logo in SVG format
+
+#### **Web App Files**
+- **`public/manifest.json`** - Progressive Web App manifest
+- **`public/robots.txt`** - Search engine crawling instructions
+
+### 🧪 Testing & Development Files
+
+#### **Testing**
+- **`src/App.test.js`** - Unit tests for App component
+- **`src/setupTests.js`** - Test configuration and setup
+
+#### **Performance & Monitoring**
+- **`src/reportWebVitals.js`** - Performance monitoring utilities
+
+### 🎨 Styling Files
+
+#### **CSS Files**
+- **`src/index.css`** - Global CSS styles and resets
+- **`src/App.css`** - Main application styling
+- **`src/Calculator.css`** - Calculator-specific styling
+
+## 🔧 Key Features by File
+
+### Calculator Functionality (`src/Calculator.js`)
+- ✅ Basic arithmetic operations (+, -, *, /)
+- ✅ Clear button (C)
+- ✅ Backspace button (⌫)
+- ✅ Decimal point support
+- ✅ Error handling
+- ✅ Responsive design
+
+### Styling (`src/Calculator.css`)
+- ✅ Modern calculator design
+- ✅ Grid layout for buttons
+- ✅ Hover and active states
+- ✅ Responsive display
+- ✅ Clean, professional appearance
+
+### Configuration (`package.json`)
+- ✅ React 18.x
+- ✅ Development server setup
+- ✅ Build scripts
+- ✅ Testing configuration
+
+## 📦 Dependencies
+
+### Core Dependencies
+- **React** - UI library
+- **React DOM** - DOM rendering
+- **React Scripts** - Development tools
+
+### Development Dependencies
+- **Testing Library** - Component testing
+- **Web Vitals** - Performance monitoring
+
+## 🚀 How to Use
+
+1. **Install Dependencies**: `npm install`
+2. **Start Development Server**: `npm start`
+3. **Build for Production**: `npm run build`
+4. **Run Tests**: `npm test`
+
 ## Code of functionality to use in calculator
 1. **Calculator.js**
     ``` import React, { useState } from 'react';
@@ -187,6 +301,14 @@ export default Calculator;
    ```
 
 ---
+
+## 📁 Repository Structure
+
+Your GitHub repository at `https://github.com/kush3034/Calculator.git` contains all these files and is ready for:
+- ✅ Development
+- ✅ Deployment
+- ✅ Collaboration
+- ✅ Version control
 
 ## Customization
 
