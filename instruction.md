@@ -25,8 +25,6 @@ This is a simple calculator application built with React.js. It supports basic a
    The app will open in your default browser at [http://localhost:3000](http://localhost:3000).
 
 ---
-## File Structure
-# Calculator Application - File Structure
 
 ## 📁 Complete File Structure
 
